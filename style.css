@@ -80,24 +80,22 @@ header nav a {
   text-shadow: none;
 }
 
-/* --- Tambahan untuk Atur Icon --- */
 
-/* Bikin wadah <figure> jadi flexbox biar gampang ngatur isinya */
 .slider .list .item .detail figure {
   display: flex;
-  align-items: center; /* Bikin icon dan teks sejajar di tengah secara vertikal */
-  gap: 0.5rem; /* Kasih jarak antar item (icon, icon, teks) */
+  align-items: center;
+  gap: 0.5rem; 
 }
 
-/* Ini bagian utamanya: Atur ukuran icon */
+
 .slider .list .item .detail figure img {
-  width: 2.4rem; /* Atur lebar icon jadi 50px, bisa lu ganti sesuai selera */
-  height: auto; /* Biarin tingginya otomatis biar ga gepeng */
+  width: 2.4rem; 
+  height: auto; 
 }
 
 .slider .list .item .detail figure figcaption {
   text-transform: uppercase;
-  font-size: 0.8rem; /* Sedikit lebih kecil dari teks utama */
+  font-size: 0.8rem; 
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
@@ -106,6 +104,9 @@ header nav a {
   font-size: 1rem;
   font-weight: 100;
   margin-top: 1rem;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
   max-width: 30rem;
   text-shadow: 1px 1px 1px #000;
 }
